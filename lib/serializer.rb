@@ -1,4 +1,4 @@
-module Toygit
+module ToyGit
   class Serializer
     def self.serialize(object1)
       Marshal.dump(object1)

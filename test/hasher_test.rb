@@ -3,7 +3,7 @@ require_relative '../lib/hasher.rb'
 require_relative '../lib/serializer.rb'
 require 'digest'
 
-module ToyGit
+module Toygit
   class TestHasher < Minitest::Test
 
   end

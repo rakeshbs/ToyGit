@@ -2,7 +2,7 @@ require_relative './test_helper.rb'
 require_relative '../lib/serializer.rb'
 require 'digest'
 
-module Toygit
+module ToyGit
   class TestSerializer < Minitest::Test
 
     class TestClass
