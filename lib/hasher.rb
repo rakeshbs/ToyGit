@@ -3,7 +3,7 @@ require 'digest'
 module ToyGit
   class Hasher
     def self.generate(object:, serializer:)
-      serialized = serializer.serialize(object)
+      serialized = serializer.serialize(object: object)
       Digest::SHA256.hexdigest(serialized)
     end
   end

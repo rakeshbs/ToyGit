@@ -1,7 +1,7 @@
 module ToyGit
   class Serializer
-    def self.serialize(object1)
-      Marshal.dump(object1)
+    def self.serialize(object:)
+      Marshal.dump(object)
     end
   end
 end

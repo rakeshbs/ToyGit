@@ -20,16 +20,15 @@ module ToyGit
     end
 
     def test_serialize_method_exist
-      assert @s.serialize(@object1)
+      assert @s.serialize(object: @object1)
     end
 
     def test_objects_with_same_data_has_same_serialization
-      assert_equal @s.serialize(@object1), @s.serialize(@duplicate_object1)
+      assert_equal @s.serialize(object: @object1), @s.serialize(object: @duplicate_object1)
     end
 
     def test_objects_with_different_data_has_different_serialization
-      @s.serialize(@object1) # =>
-      refute_equal @s.serialize(@object1), @s.serialize(@object2)
+      refute_equal @s.serialize(object: @object1), @s.serialize(object: @object2)
     end
 
   end
