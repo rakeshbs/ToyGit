@@ -1,0 +1,43 @@
+PATH
+  remote: .
+  specs:
+    toygit (0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ansi (1.5.0)
+    builder (3.2.2)
+    ffi (1.9.14)
+    listen (3.1.5)
+      rb-fsevent (~> 0.9, >= 0.9.4)
+      rb-inotify (~> 0.9, >= 0.9.7)
+      ruby_dep (~> 1.2)
+    minitest (5.9.0)
+    minitest-reporters (1.1.11)
+      ansi
+      builder
+      minitest (>= 5.0)
+      ruby-progressbar
+    rake (10.5.0)
+    rb-fsevent (0.9.7)
+    rb-inotify (0.9.7)
+      ffi (>= 0.5.0)
+    rerun (0.11.0)
+      listen (~> 3.0)
+    ruby-progressbar (1.8.1)
+    ruby_dep (1.4.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.10)
+  minitest (~> 5.8, >= 5.8.4)
+  minitest-reporters (~> 1.1, >= 1.1.9)
+  rake (~> 10.4, >= 10.4.2)
+  rerun
+  toygit!
+
+BUNDLED WITH
+   1.12.5
