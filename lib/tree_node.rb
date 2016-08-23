@@ -2,7 +2,6 @@ require_relative 'hashable.rb'
 
 module ToyGit
   class TreeNode < Hashable
-
     attr_reader :name, :hash_id
 
     def initialize(name:,hash_id:)
