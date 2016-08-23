@@ -31,8 +31,16 @@ module ToyGit
       assert_equal @hashable_ob1.hash_id, @dup_hashable_ob1.hash_id
     end
 
+    def test_equality_of_objects_with_same_data
+      assert_equal @hashable_ob1, @dup_hashable_ob1
+    end
+
     def test_if_objects_with_different_data_has_different_hash
       refute_equal @hashable_ob1.hash_id, @hashable_ob2.hash_id
+    end
+
+    def test_inequality_of_objects_with_different_data
+      refute_equal @hashable_ob1, @hashable_ob2
     end
 
   end
