@@ -3,6 +3,8 @@ require_relative 'serializer.rb'
 
 module ToyGit
   class Hashable
+    include Comparable
+
     def hash_id
       Hasher.generate(object: self, serializer:Serializer)
     end
