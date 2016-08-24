@@ -11,7 +11,7 @@ module ToyGit
     end
 
     def <=>(other)
-      self.hash_id <=> other.hash_id
+      self.name <=> other.name
     end
   end
 end
