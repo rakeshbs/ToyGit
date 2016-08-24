@@ -12,10 +12,6 @@ module ToyGit
       assert TreeNode.new(name: "", hash_id: "")
     end
 
-    def test_tree_node_is_hashable
-      assert TreeNode.ancestors.include?(Hashable)
-    end
-
     def test_tree_node_has_name_accessor
       assert @tree_node.name
     end
