@@ -1,0 +1,5 @@
+require 'toygit'
+
+pwd = `pwd`
+MerkleTreeGenerator.generate(path: pwd)
+
