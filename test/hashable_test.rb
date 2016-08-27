@@ -1,7 +1,7 @@
 require_relative './test_helper.rb'
-require_relative '../lib/hasher.rb'
-require_relative '../lib/serializer.rb'
-require_relative '../lib/hashable.rb'
+require 'hasher.rb'
+require 'serializer.rb'
+require 'hashable.rb'
 require 'digest'
 
 module ToyGit

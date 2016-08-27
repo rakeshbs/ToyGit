@@ -1,5 +1,8 @@
+#!/usr/bin/env ruby
+
 require 'toygit'
 
 pwd = `pwd`
-MerkleTreeGenerator.generate(path: pwd)
+puts pwd
+#MerkleTreeGenerator.generate(path: pwd)
 

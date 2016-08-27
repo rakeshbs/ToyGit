@@ -1,5 +1,5 @@
 require_relative './test_helper.rb'
-require_relative '../lib/merkle_tree_generator.rb'
+require 'merkle_tree_generator.rb'
 
 module ToyGit
   class TestMerkleTreeGenerator < Minitest::Test

@@ -1,6 +1,6 @@
 require_relative './test_helper.rb'
-require_relative '../lib/tree.rb'
-require_relative '../lib/tree_node.rb'
+require 'tree.rb'
+require 'tree_node.rb'
 
 module ToyGit
   class TestTree < Minitest::Test

@@ -1,5 +1,5 @@
 require_relative './test_helper.rb'
-require_relative '../lib/commit.rb'
+require 'commit.rb'
 
 module ToyGit
   class TestCommit < Minitest::Test

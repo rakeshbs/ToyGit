@@ -1,5 +1,5 @@
 require_relative './test_helper.rb'
-require_relative '../lib/sorted_list.rb'
+require 'sorted_list.rb'
 
 module ToyGit
   class TestSortedList < Minitest::Test
