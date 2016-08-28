@@ -4,5 +4,5 @@ require 'toygit'
 
 pwd = `pwd`
 puts pwd
-#MerkleTreeGenerator.generate(path: pwd)
+ToyGit::MerkleTreeGenerator.generate(path: pwd)
 
